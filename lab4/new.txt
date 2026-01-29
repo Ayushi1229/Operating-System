@@ -1,0 +1,1000 @@
+ 1003  cal.txt>"$(cal)"
+ 1004  cat cal.txt>"$(cal)"
+ 1005  cat>cal.txt>"$(cal)"
+ 1006  ls
+ 1007  clear
+ 1008  cal >> cal.txt
+ 1009  cal.txt
+ 1010  cat cal.txt
+ 1011  cal>>cal_temp.txt 
+ 1012  ls
+ 1013  cat cal_temp.txt
+ 1014  cal_temp.txt>"$(echo hello)"
+ 1015  "$(echo hello)">cal_temp.txt
+ 1016  "echo hello">cal_temp.txt
+ 1017  echo "hello">cal_temp.txt
+ 1018  cat cal_temp.txt
+ 1019  ncal -bh>ncal_temp.txt
+ 1020  cat ncal_temp.txt
+ 1021  ncal -bh
+ 1022  ncal\
+ 1023  ncal
+ 1024  ncal >>ncal_temp.txt
+ 1025  cat ncal_temp.txt
+ 1026  ncal -bhJjpwySM>>ncal_temp.txt
+ 1027  cat ncal_temp.txt
+ 1028  cls
+ 1029  clear
+ 1030  pwd
+ 1031  mkdir demo_728
+ 1032  cd demo_728
+ 1033  cd ..
+ 1034  cd /
+ 1035  pwd
+ 1036  ls
+ 1037  cd /home/student
+ 1038  pwd
+ 1039  cd demo_728
+ 1040  pwd
+ 1041  ls
+ 1042  man ls
+ 1043  man -h
+ 1044  clear
+ 1045  cd -h
+ 1046  cd --help
+ 1047  clear
+ 1048  date
+ 1049  cal
+ 1050  date --help
+ 1051  clear
+ 1052  date
+ 1053  cal
+ 1054  date "+%Y-%m-%d %H:%M:%S"
+ 1055  echo "Hello World"
+ 1056  echo "this is a print cmd"
+ 1057  echo "today's date is $(date)"
+ 1058  echo "the calender is : $(cal)"
+ 1059  cal --help
+ 1060  clear
+ 1061  time
+ 1062  clear
+ 1063  cat p1.txt
+ 1064  cat>p1.txt
+ 1065  cat p1.txt
+ 1066  date>p1.txt
+ 1067  ls
+ 1068  cat p1.txt
+ 1069  cal>>p1.txt
+ 1070  ls
+ 1071  date>>p1.txt
+ 1072  cat p1.txt
+ 1073  cat>p2.txt
+ 1074  ls
+ 1075  cat p1.txt p2.txt>combine.txt
+ 1076  ls
+ 1077  cat combine.txt
+ 1078  clear
+ 1079  cat>$(date).txt
+ 1080  cat>echo "$(date "+%Y-%m-%d %H:%M:%S").txt"
+ 1081  date>echo "$(date "+%Y-%m-%d %H:%M:%S").txt"
+ 1082  cat>echo "$(date "+%Y-%m-%d %H:%M:%S").txt"
+ 1083  cat>>echo "$(date "+%Y-%m-%d %H:%M:%S").txt"
+ 1084  cat>>echo "$(date "+%Y-%m-%d %H:%M:%S")".txt
+ 1085  cat>date "+%Y-%m-%d %H:%M:%S".txt
+ 1086  date "+%Y-%m-%d %H:%M:%S".txt
+ 1087  ls
+ 1088  clear
+ 1089  echo "todays date is $(date)">"$(date "+'%Y-%m-%d %H:%M:%S')".txt
+ 1090  hii
+ 1091  ls
+ 1092  echo "todays date is $(date)" > "$(date "+'%Y-%m-%d %H:%M:%S')".txt
+ 1093  ls
+ 1094  clear
+ 1095  echo "Today's date is $(date)" > "$(date +'%Y-%m-%d')".txt
+ 1096  ls
+ 1097  cat 2025-11-27.txt
+ 1098  clear
+ 1099  cat p1.txt
+ 1100  man ls>ls_manual.txt
+ 1101  ls
+ 1102  echo "custom msg">>ls_manual.txt
+ 1103  ls
+ 1104  cat ls_manual.txt
+ 1105  dir
+ 1106  ls
+ 1107  curdir
+ 1108  crdir
+ 1109  cdir
+ 1110  clear
+ 1111  ls
+ 1112  echo "conform"
+ 1113  echo "confirm"
+ 1114  mkdir logs
+ 1115  cd logs
+ 1116  echo date
+ 1117  echo $(date)
+ 1118  echo "logs "
+ 1119  echo "logs $(date) ">logs_report.txt
+ 1120  ls
+ 1121  cat logs_report.txt
+ 1122  echo "$(ls)"
+ 1123  cd ..
+ 1124  echo "$(ls)"
+ 1125  pwd
+ 1126  ls
+ 1127  pwd
+ 1128  pwd --help
+ 1129  pwd -P
+ 1130  pwd -L
+ 1131  clear
+ 1132  ls
+ 1133  cd logs
+ 1134  l ls
+ 1135  l sl
+ 1136  ls l
+ 1137  cls
+ 1138  clear
+ 1139  c
+ 1140  clear
+ 1141  ls
+ 1142  pwd
+ 1143  clear
+ 1144  pwd
+ 1145  cls'
+ 1146  cls
+ 1147  clear
+ 1148  pwd
+ 1149  ping google.com
+ 1150  clear
+ 1151  usrmod
+ 1152  usermod
+ 1153  clear
+ 1154  ls
+ 1155  pwd
+ 1156  ls 
+ 1157  CLEAR
+ 1158  clear
+ 1159  pwd
+ 1160  cd ..
+ 1161  cd desktop
+ 1162  ls
+ 1163  cd 650
+ 1164  pwd
+ 1165  cd Desktop
+ 1166  pwd
+ 1167  cd 650
+ 1168  clear
+ 1169  cd demo/
+ 1170  cd ../abc
+ 1171  cd ..
+ 1172  clear
+ 1173  ls -l
+ 1174  ls -a
+ 1175  ls -r
+ 1176  ls -t
+ 1177  ls -s
+ 1178  man ls
+ 1179  man cal
+ 1180  echo "yo"
+ 1181  echo -n "DU"
+ 1182  echo -e "D\tU"
+ 1183  cal
+ 1184  cal -1
+ 1185  cal -4
+ 1186  cal -3
+ 1187  cal -2
+ 1188  cal -31
+ 1189  cal -y
+ 1190  cal -m
+ 1191  ncal -m
+ 1192  ncal -s
+ 1193  ncal -S
+ 1194  ncal -M
+ 1195  date
+ 1196  date +%a
+ 1197  date +%A
+ 1198  date +%b
+ 1199  date +%B
+ 1200  date +%C
+ 1201  date +%q
+ 1202  date +%w
+ 1203  date +%d
+ 1204  date +%m
+ 1205  date +%y
+ 1206  date +%T
+ 1207  date +%H
+ 1208  date +%M
+ 1209  date +%S
+ 1210  date +%V
+ 1211  date +%P
+ 1212  date +%v
+ 1213  date +%d-%m-%y
+ 1214  date +%d-%m-%Y
+ 1215  who
+ 1216  cat > data.txt
+ 1217  cd Desktop
+ 1218  cd 650
+ 1219  cat > data.txt
+ 1220  cat data.txt data1.txt
+ 1221  cat > data1.txt
+ 1222  cat data.txt data1.txt
+ 1223  cat data.txt data1.txt > combined_data.txt
+ 1224  cat combined_data.txt
+ 1225  cat data.txt
+ 1226  cat data1.txt
+ 1227  cat >> data.txt 
+ 1228  cat data.txt
+ 1229  cat data1.txt >> data2.txt
+ 1230  cat data2.txt
+ 1231  cat data1.txt >> data3.txt > data 
+ 1232  cat data3.txt
+ 1233  cat data1.txt >> data3.txt >> data 
+ 1234  cat data3.txt
+ 1235  cat data1.txt >> data3.txt >> data
+ 1236  cat data1.txt >> data3.txt
+ 1237  cat -n data1.txt
+ 1238  cat -b data1.txt
+ 1239  cat -E data1.txt
+ 1240  cat -s data1.txt
+ 1241  pwd
+ 1242  cat > "file created at {date}" +%Y-%m-%d
+ 1243  cat > "file created at {date +%Y-%m-%d}"
+ 1244  cat > "file created at ${date +%Y-%m-%d}"
+ 1245  cd 650
+ 1246  pwd
+ 1247  cd Desktop
+ 1248  pwd
+ 1249  cd 650
+ 1250  clear
+ 1251  cd demo/
+ 1252  cd ../abc
+ 1253  cd ..
+ 1254  clear
+ 1255  ls -l
+ 1256  ls -a
+ 1257  ls -r
+ 1258  ls -t
+ 1259  ls -s
+ 1260  man ls
+ 1261  man cal
+ 1262  echo "yo"
+ 1263  echo -n "DU"
+ 1264  echo -e "D\tU"
+ 1265  cal
+ 1266  cal -1
+ 1267  cal -4
+ 1268  cal -3
+ 1269  cal -2
+ 1270  cal -31
+ 1271  cal -y
+ 1272  cal -m
+ 1273  ncal -m
+ 1274  ncal -s
+ 1275  ncal -S
+ 1276  ncal -M
+ 1277  date
+ 1278  date +%a
+ 1279  date +%A
+ 1280  date +%b
+ 1281  date +%B
+ 1282  date +%C
+ 1283  date +%q
+ 1284  date +%w
+ 1285  date +%d
+ 1286  date +%m
+ 1287  date +%y
+ 1288  date +%T
+ 1289  date +%H
+ 1290  date +%M
+ 1291  date +%S
+ 1292  date +%V
+ 1293  date +%P
+ 1294  date +%v
+ 1295  date +%d-%m-%y
+ 1296  date +%d-%m-%Y
+ 1297  who
+ 1298  cat > data.txt
+ 1299  cd Desktop
+ 1300  cd 650
+ 1301  cat > data.txt
+ 1302  cat data.txt data1.txt
+ 1303  cat > data1.txt
+ 1304  cat data.txt data1.txt
+ 1305  cat data.txt data1.txt > combined_data.txt
+ 1306  cat combined_data.txt
+ 1307  cat data.txt
+ 1308  cat data1.txt
+ 1309  cat >> data.txt 
+ 1310  cat data.txt
+ 1311  cat data1.txt >> data2.txt
+ 1312  cat data2.txt
+ 1313  cat data1.txt >> data3.txt > data 
+ 1314  cat data3.txt
+ 1315  cat data1.txt >> data3.txt >> data 
+ 1316  cat data3.txt
+ 1317  cat data1.txt >> data3.txt >> data
+ 1318  cat data1.txt >> data3.txt
+ 1319  cat -n data1.txt
+ 1320  cat -b data1.txt
+ 1321  cat -E data1.txt
+ 1322  cat -s data1.txt
+ 1323  pwd
+ 1324  cat > "file created at {date}" +%Y-%m-%d
+ 1325  cat > "file created at {date +%Y-%m-%d}"
+ 1326  cat > "file created at ${date +%Y-%m-%d}"
+ 1327  cat > "file created at $(date +%Y-%m-%d)"
+ 1328  echo "File create by echo command at $(date)" > "hello"
+ 1329  echo "File create by echo command at $(date)" > "$(date +%Y-%m-%d %H-%M-%S)".txt
+ 1330  echo "File create by echo command at $(date)" > "$(date +%Y-%m-%d%H%M%S)".txt
+ 1331  date >> data.txt
+ 1332  cat data.txt
+ 1333  date >> log.txt
+ 1334  cat log.txt
+ 1335  clear
+ 1336  man cal
+ 1337  man cat
+ 1338  clear
+ 1339  pwd
+ 1340  who
+ 1341  who -b
+ 1342  who -H
+ 1343  who -q
+ 1344  who -a
+ 1345  whoami
+ 1346  whoami --help
+ 1347  whoami --version
+ 1348  uname
+ 1349  uname -s
+ 1350  uname -n
+ 1351  uname -v
+ 1352  uname -m
+ 1353  uname -o
+ 1354  mkdir tanisha
+ 1355  cd tanisha
+ 1356  mkdir file1
+ 1357  mkdir file2
+ 1358  ls
+ 1359  mkdir -v tanisha
+ 1360  mkdir -p tanisha
+ 1361  ls -l
+ 1362  mkdir -m 777 file3
+ 1363  ls -l
+ 1364  rmdir file1
+ 1365  ls
+ 1366  mkdir a
+ 1367  cd a
+ 1368  mkdir b
+ 1369  cd b
+ 1370  mkdir c
+ 1371  cd c
+ 1372  cd tanisha
+ 1373  cd ..
+ 1374  rmdir -p a/b/c
+ 1375  ls
+ 1376  cat > f1.txt
+ 1377  cp f1.txt f2.txt
+ 1378  cat f2.txt
+ 1379  cp -i  f1.txt f2.txt
+ 1380  ls
+ 1381  cat f2.txt
+ 1382  cp -i  f1.txt f3.txt
+ 1383  ls
+ 1384  cp -v f1.txt f3.txt
+ 1385  cp -s f1.txt f4.txt
+ 1386  ls
+ 1387  mv file1.txt ../tanisha/
+ 1388  mv file2.txt ../tanisha/
+ 1389  mv file2.txt tanisha/
+ 1390  mv f2.txt tanisha/
+ 1391  rm f3.txt
+ 1392  ls
+ 1393  rm -i *.txt
+ 1394  ls
+ 1395  cat data.txt
+ 1396  cat > data.txt
+ 1397  cut -c 3 data.txt
+ 1398  cut -c 1 data.txt
+ 1399  cut -c 1-5 data.txt
+ 1400  cut -c 1-2 data.txt
+ 1401  cut -b 1 data.txt
+ 1402  cat mydata.txt
+ 1403  cat > mydata.txt
+ 1404  cut -f 3 -d '|' mydata.txt
+ 1405  cut -f 2- 3 -d '|' mydata.txt
+ 1406  cut -f 2-3 -d '|' mydata.txt
+ 1407  cut -f 2-3 -d ':' mydata.txt
+ 1408  cat > abc.txt
+ 1409  cat > xyz.txt
+ 1410  paste abc.txt xyz.txt
+ 1411  paste -d':' abc.txt xyz.txt
+ 1412  paste -d'\n' abc.txt xyz.txt
+ 1413  paste -s  abc.txt xyz.txt
+ 1414  more abc.txt
+ 1415  more -2 abc.txt
+ 1416  more +2 abc.txt
+ 1417  more -c  abc.txt
+ 1418  cd ..
+ 1419  cd > tanisha
+ 1420  cd
+ 1421  cd tanisha
+ 1422  mv abc.txt tanisha/
+ 1423  paste data.txt xyz.txt
+ 1424  paste -d'|' data.txt xyz.txt
+ 1425  mkdir backup
+ 1426  cp -i *.txt
+ 1427  mkdir backup
+ 1428  cd backup
+ 1429  cp -i *.txt
+ 1430  cp backup data.txt
+ 1431  cp data.txt
+ 1432  cp data.txt backup
+ 1433  cp data.txt xyz.txt
+ 1434  cd..
+ 1435  cd ..
+ 1436  cp data.txt xyz.txt
+ 1437  mv xyz.txt backup/
+ 1438  mv xyz.txt data.txt mydata.txt  backup/
+ 1439  mv data.txt mydata.txt  backup/
+ 1440  cp *.txt
+ 1441  cd isha
+ 1442  cd sharon
+ 1443  cat>f1.txt
+ 1444  cat>f2.txt
+ 1445  ls
+ 1446  cat>demo.txt
+ 1447  cp *.txt demo
+ 1448  ls
+ 1449  mkdir demo
+ 1450  cp *.txt demo
+ 1451  ls
+ 1452  create data.txt
+ 1453  pwd
+ 1454  cat>data.txt
+ 1455  cut --help
+ 1456  cd demo
+ 1457  cat>data1.txt
+ 1458  cut -d ',' data1.txt|paste new.txt
+ 1459  cut -d "," -f 2 data1.txt|paste new.txt
+ 1460  cat>new.txt
+ 1461  cut -d "," -f 2 data1.txt|paste new.txt
+ 1462  mkdir backup
+ 1463  cp *.txt backup
+ 1464  mkdir -p  backup
+ 1465  cp *.txt backup
+ 1466  cd isha
+ 1467  cd demo
+ 1468  cut --delimitar "," --fields=2 data1.txt
+ 1469  cut --delimiter "," --fields=2 data1.txt
+ 1470  cut --delimiter " ," --fields=2 data1.txt
+ 1471  cut --delimiter "," --fields=2 data1.txt
+ 1472  cut -d"," -f1,2 data.txt > fields.txt
+ 1473  paste fields.txt extra.txt > merged.txt
+ 1474  cut -d"," -f1,2 data.txt > fields.txt
+ 1475  cut -d"," -f1,2 data1.txt > new.txt
+ 1476  paste data1.txt new.txt > merged.txt
+ 1477  cut -d',' -f 2 data1.txt
+ 1478  cut -d' ' -f 1 data1.txt
+ 1479  cut -d' ' -f 1,2 data1.txt
+ 1480  cut -d' ' -f 1,2 data1.txt| more
+ 1481  cat>extra.txt
+ 1482  mkdir .dist
+ 1483  pwd
+ 1484  cd Meet
+ 1485  ls
+ 1486  cd Desktop
+ 1487  ls
+ 1488  cd Meet
+ 1489  clear
+ 1490  who
+ 1491  whoami
+ 1492  uname
+ 1493  mkdir demo
+ 1494  ls
+ 1495  rm demo
+ 1496  ls
+ 1497  mkdir demo.txt
+ 1498  mkdir fi.txt
+ 1499  cat > f1.txt
+ 1500  cat > f2.txt
+ 1501  ls
+ 1502  mkdir backup
+ 1503  cp f1.txt
+ 1504  cp --help
+ 1505  cp f1.txt backup
+ 1506  cd backup
+ 1507  ls
+ 1508  cd ..
+ 1509  ls backup
+ 1510  cp f2.txt backup
+ 1511  ls backup
+ 1512  mkdir diet
+ 1513  mv f1.txt diet
+ 1514  ls diet
+ 1515  ls 
+ 1516  ls backup
+ 1517  mkdir deit2
+ 1518  mv f1.txt ./diet
+ 1519  rm deit2
+ 1520  cp data.txt
+ 1521  pwd
+ 1522  cut --delimitar "," --fields=2 data1.txt
+ 1523  cd demo
+ 1524  cut -d',' -f 2 data1.txt
+ 1525  cd Desktop
+ 1526  ls
+ 1527  ls 
+ 1528  ls backup
+ 1529  mv f1.txt ./diet
+ 1530  mkdir deit2
+ 1531  ls backup
+ 1532  mv f1.txt ./diet
+ 1533  cp data.txt
+ 1534  cd demo
+ 1535  mv f1.txt ./diet
+ 1536  cp data.txt
+ 1537  mv f1.txt ./diet
+ 1538  clear
+ 1539  cut -f 1-3 f1.txt > f1_feilds.txt
+ 1540  cut -f 1-3 f2.txt > f2_feilds.txt
+ 1541  paste f1_feilds.txt d2_feilds.txt > combine.txt
+ 1542  paste f1_feilds.txt f2_feilds.txt > combine.txt
+ 1543  uname -r
+ 1544  cat sysinfo.txt > $(uname -r)
+ 1545  echo sysifo.txt
+ 1546  cat > sysinfo.txt $(uname -r)
+ 1547  uname -r > sysinfo.txt
+ 1548  cd home
+ 1549  cd ayushi689
+ 1550  cd Lab2ls
+ 1551  cd lab2
+ 1552  ls
+ 1553  pwd
+ 1554  who
+ 1555  whoami
+ 1556  who --help
+ 1557  whoami --help
+ 1558  uname
+ 1559  cat>data.txt
+ 1560  cut -d' ' -f2 data.txt
+ 1561  cat>extract.txt
+ 1562  ls
+ 1563  cut -d' ' -f2 data.txt>extract.txt
+ 1564  ls
+ 1565  cat extract.txt
+ 1566  cd ayushi689
+ 1567  cd lab2
+ 1568  ls
+ 1569  cat extract2.txt
+ 1570  cat>extract2.txt
+ 1571  ls
+ 1572  cut -d' ' -f2 data.txt|paste extract2.txt
+ 1573  cat extract2.txt
+ 1574  cut -d' ' -f2 data.txt|paste - extract2.txt
+ 1575  cat extract2.txt
+ 1576  cut -d' ' -f2 data.txt|paste - extract2.txt>extract2.txt
+ 1577  cat extract2.txt
+ 1578  mkdir copy
+ 1579  ls
+ 1580  cp *.txt copy
+ 1581  ls
+ 1582  ls copy
+ 1583  cat>extra.txt
+ 1584  ls
+ 1585  cut -d' ' -f1,2 data.txt|paste -extra.txt>extra.txt
+ 1586  cut -d' ' -f1,2 data.txt|paste - extra.txt>extra.txt
+ 1587  cat extra.txt
+ 1588  mkdir backup
+ 1589  cp *.txt backup
+ 1590  ls
+ 1591  ls backup
+ 1592  cat>data1.txt
+ 1593  cat>data2.txt
+ 1594  cut -d' ' -d ' ' -f1,2,3 data1.txt | paste -data2.txt>data2.txt 
+ 1595  cat data2.txt
+ 1596  cut -d' ' -d' ' -f1,2,3 data1.txt | paste -data2.txt>data2.txt 
+ 1597  cat data2.txt
+ 1598  cut -d' ' -d' ' -f1,2,3 data1.txt>extra1.txt 
+ 1599  cut -d' ' -d' ' -f1,2,3 data2.txt>extra1.txt 
+ 1600  cat extra1.txt
+ 1601  cat data1.txt
+ 1602  cat data2.txt
+ 1603  cat>data2.txt
+ 1604  cat data2.txt
+ 1605  cat data1 data2>merged.txt
+ 1606  cat data1 data2>>merged.txt
+ 1607  cat data1.txt data2.txt>>merged.txt
+ 1608  cat merged.txt
+ 1609  join data1.txt data2.txt>merged.txt
+ 1610  cat merged.txt
+ 1611  Name Age Grade
+ 1612  Jiya 21 A
+ 1613  rAJ 22 b
+ 1614  Meet 23 C
+ 1615  cut -d' ' -f1-3 data1.txt>extra4.txt
+ 1616  cut -d' ' -f1-3 data2.txt>>extra4.txt
+ 1617  cat extra4.txt
+ 1618  uname --help\
+ 1619  uname --help -s
+ 1620  uname -a
+ 1621  uname --help -a
+ 1622  pwd
+ 1623  mkdir KB_Sem6_OS
+ 1624  cd KB_Sem6_OS
+ 1625  cls
+ 1626  clear
+ 1627  who
+ 1628  whoami
+ 1629  man cut
+ 1630  mkdir Lab2
+ 1631  cd Lab2
+ 1632  ls
+ 1633  cat>data.txt
+ 1634  cat data.txt
+ 1635  clear
+ 1636  cut -d' ' -f2 data.txt
+ 1637  cut -d' ' -f2 data.txt|paste new.txt
+ 1638  cat>new.txt
+ 1639  ls
+ 1640  cut -d' ' -f2 data.txt|paste new.txt
+ 1641  cat new.txt
+ 1642  man paste
+ 1643  cut -d' ' -f2 data.txt|paste - new.txt
+ 1644  cut -d' ' -f2 data.txt|paste - new.txt>extract.txt
+ 1645  ls
+ 1646  cat extract.txt
+ 1647  cat next.txt
+ 1648  cat new.txt
+ 1649  clear
+ 1650  mkdir backup
+ 1651  cp *.txt backup
+ 1652  ls backup
+ 1653  man move
+ 1654  clear
+ 1655  echo "Part_B"
+ 1656  man cut
+ 1657  cut -d' ' -f 1,2 data.txt
+ 1658  cut -d' ' -f 1,2 data.txt|paste>extra.txt
+ 1659  cat extra.txt
+ 1660  paste extra.txt extra.txt > extracted.txt
+ 1661  cat extracted.txt
+ 1662  cat>data1.txt
+ 1663  cat data1.txt
+ 1664  clear
+ 1665  uname
+ 1666  uname --help
+ 1667  clear
+ 1668  mkdir backup_2
+ 1669  uname -v
+ 1670  uname -v>sysinfo.txt
+ 1671  mv sysinfo.txt backup_2
+ 1672  ls backup_2
+ 1673  ls
+ 1674  cut -d' ' -f2 backup_2/sysinfo.txt
+ 1675  cut -d' ' -d':' -f2 backup_2/sysinfo.txt
+ 1676  man Paste
+ 1677  cut -d':' -f2 backup_2/sysinfo.txt
+ 1678  mkdir project_backup
+ 1679  cp *.txt project_backup
+ 1680  ls project_backup
+ 1681  man delete
+ 1682  rm data.txt
+ 1683  ls
+ 1684  clear
+ 1685  more --help
+ 1686  cat>dump.txt
+ 1687  more -l dump
+ 1688  more -l dump.txt
+ 1689  more -f dump.txt
+ 1690  more -d dump.txt
+ 1691  more -s dump.txt
+ 1692  man rm
+ 1693  cd..
+ 1694  cd 
+ 1695  cd Desktop
+ 1696  cd Anjal
+ 1697  pwd
+ 1698  mkdir lab_2
+ 1699  cd lab_2
+ 1700  ls
+ 1701  pwd
+ 1702  cat>data.txt
+ 1703  cat data.txt
+ 1704  clear
+ 1705  man cut
+ 1706  ls data.txt
+ 1707  cut -d' ' -f2
+ 1708  cut -d' ' -f2 data.txt
+ 1709  cat data.txt
+ 1710  cat>dump.txt
+ 1711  cut -d' ' -f2 data.txt|paste dump.txt
+ 1712  cat dump.txt
+ 1713  cut -d' ' -f2 data.txt|paste - dump.txt
+ 1714  cat dump.txt
+ 1715  cut -d' ' -f2 data.txt|paste - dump.txt>dump.txt
+ 1716  cat dump.txt
+ 1717  whoami
+ 1718  uname
+ 1719  who
+ 1720  who -u
+ 1721  ls -l
+ 1722  ls
+ 1723  cp *.txt backup
+ 1724  mkdir backup
+ 1725  ls
+ 1726  cp *.txt backup
+ 1727  ls backup
+ 1728  cut -d' ' -f1-2 data.txt
+ 1729  cat>data2.txt
+ 1730  cut -d' ' -f1-2 data.txt|paste - data2.txt>data2.txt
+ 1731  cat data2.txt
+ 1732  clear
+ 1733  cat > file1.txt
+ 1734  cat > file2.txt
+ 1735  cmp file1.txt file2.txt
+ 1736  cmp -b file1.txt file2.txt
+ 1737  cmp -i 3 file1.txt file2.txt
+ 1738  cmp -i 6 file1.txt file2.txt
+ 1739  cmp -i 4 file1.txt file2.txt
+ 1740  cmp -s file1.txt file2.txt
+ 1741  cmp -n file1.txt file2.txt
+ 1742  cmp -n 3 file1.txt file2.txt
+ 1743  cmp -l file1.txt file2.txt
+ 1744  cat > comp1.txt
+ 1745  cat > comp2.txt
+ 1746  comm comp1.txt comp2.txt
+ 1747  comm -1 comp1.txt comp2.txt
+ 1748  comm -2 comp1.txt comp2.txt
+ 1749  comm -3 comp1.txt comp2.txt
+ 1750  cat > diff1.txt
+ 1751  cat > diff2.txt
+ 1752  diff diff1.txt diff2.txt
+ 1753  ls -l
+ 1754  chmod 677 diff1.txt
+ 1755  ls -l
+ 1756  chown root diff1.txt
+ 1757  chown root diff2.txt
+ 1758  comm comp1.txt comp2.txt echo ''
+ 1759  cmp -s file1.txt file2.txt
+ 1760  ps -x
+ 1761  sleep 2
+ 1762  file file1.txt
+ 1763  wc -l comp1.txt
+ 1764  wc -w comp1.txt
+ 1765  cmp comp1.txt comp2.txt
+ 1766  cmp file1.txt file2.txt
+ 1767  cmp file1.txt file2.txt && echo"files not same"
+ 1768  cmp file1.txt file2.txt echo"files not same"
+ 1769  --help
+ 1770  cmp file1.txt file2.txt && echo ("files not same")
+ 1771  cmp file1.txt file2.txt || (echo "files not same"; wc -l file1.txt)
+ 1772  cd 302-CSE
+ 1773  cat > file1.txt
+ 1774  cat > file2.txt
+ 1775  cmp file1.txt file2.txt
+ 1776  cmp -b file1.txt file2.txt
+ 1777  cat file1.txt 
+ 1778  cat dile2.txt
+ 1779  cat file2.txt
+ 1780  cmp i-8 file1.txt file2.txt 
+ 1781  cmp i-7 file1.txt file2.txt 
+ 1782  cmp -s file1.txt file2.txt 
+ 1783  cmp -n 3 file1.txt file2.txt 
+ 1784  cmp -l file1.txt file2.txt 
+ 1785  cat > f1.txt 
+ 1786  cat > f2.txt 
+ 1787  comm file1.txt file2.txt
+ 1788  comm f1.txt f2.txt
+ 1789  comm -1 f1.txt f2.txt
+ 1790  comm -2 f1.txt f2.txt
+ 1791  comm -3 f1.txt f2.txt
+ 1792  cat > f3.txt
+ 1793  cat > f4.txt
+ 1794  diff f3.txt f4.txt
+ 1795  chmod 764 f3.txt 
+ 1796  chmod u=rwx,g=rw,o=r f4.txt 
+ 1797  ls -1
+ 1798  chmod 777 f3.txt 
+ 1799  ls -1
+ 1800  chmod u=rwx f1,txt 
+ 1801  chmod 777  dos 
+ 1802  chmod 777 demo1
+ 1803  ls -1
+ 1804  chmod u=rwx file1.txt
+ 1805  ls -1
+ 1806  chownroot lab-4
+ 1807  chown root lab-4
+ 1808  chown root demo1
+ 1809  chown root file1
+ 1810  cat > lab1
+ 1811  chown root lab1
+ 1812  ls
+ 1813  file1.txt 
+ 1814  file f2.txt
+ 1815  file f5.txt
+ 1816  file f4.txt
+ 1817  file -1 f2.txt
+ 1818  file -i f2.txt
+ 1819  file -i f4.txt
+ 1820  ls --help
+ 1821  finger root 
+ 1822  sleep 5
+ 1823  ps
+ 1824  ps -e
+ 1825  ps -x
+ 1826  ps -f
+ 1827  ps 
+ 1828  kill1817
+ 1829  kill 1817 
+ 1830  kill 1817
+ 1831  kill 3061
+ 1832  kill -l
+ 1833  cat f3.txt 
+ 1834  wc f3.txt 
+ 1835  cat f3.txt 
+ 1836  wc -L f3.txt 
+ 1837  cat f3.txt 
+ 1838  wc -l f3.txt 
+ 1839  wc -w f3.txt 
+ 1840  wc -c f3.txt 
+ 1841  cmp -s file1.txt file2.txt || {echo "Files are different."; wc -l file1.txt}
+ 1842  cmp -s file1.txt file2.txt || { echo "Files are different."; wc -l file1.txt; }
+ 1843  cd vivek
+ 1844  cmp f1.txt f2.txt
+ 1845  cd demo
+ 1846  cmp f1.txt f2.txt
+ 1847  exit
+ 1848  cd vivek 
+ 1849  cd demo
+ 1850  cmp f1.txt f2.txt
+ 1851  comm f1.txt f2.txt
+ 1852  diff f1.txt f2.txt
+ 1853  chmode clear
+ 1854  clear
+ 1855  cmp f1.txt f2.txt && echo "Both are same" wc -l f1.txt
+ 1856  cat >f1.txt
+ 1857  cat >f2.txt
+ 1858  cmp f1.txt f2.txt && echo "Both are same" wc -l f1.txt
+ 1859  mkdir lab3
+ 1860  man cmp
+ 1861  cat>file1.txt
+ 1862  cat file1.txt
+ 1863  cat>file2.txt
+ 1864  cat file2.txt
+ 1865  cmd file1.txt file2.txt
+ 1866  cmp file1.txt file2.txt
+ 1867  cat>list1.txt
+ 1868  cat>list2.txt
+ 1869  cat list1.txt
+ 1870  cat list2.txt
+ 1871  comm list1.txt list2.txt
+ 1872  file list1.txt
+ 1873  diff list1.txt list2.txt
+ 1874  ls -l
+ 1875  who -a
+ 1876  ps -e
+ 1877  ls -l|wc -l
+ 1878  wc -m file2.txt
+ 1879  wc -m list2.txt
+ 1880  comm data_old.csv data_new.csv
+ 1881  wc -m data_new.csv
+ 1882  diff list1.txt list2.txt && chmod 777 list2.txt && echo "Permissions read only for list2.txt"
+ 1883  ls
+ 1884  cat>Demo1.txt
+ 1885  cat Demo.txt
+ 1886  cat Demo1.txt
+ 1887  Cat>Demo2.txt
+ 1888  cat>list3.txt
+ 1889  diff Demo1.txt list3.txt
+ 1890  cat> file1.txt
+ 1891  man ln
+ 1892  cat> file1.txt
+ 1893  ln file1.txt file_link
+ 1894  ls
+ 1895  ls - s
+ 1896  ls -s
+ 1897  ls -li
+ 1898  head 5-n file1.txt
+ 1899  head -n 5 file1.txt
+ 1900  tail -n 5 file1.txt
+ 1901  uniq file1.txt
+ 1902  cat -n file1.txt | head -n 10
+ 1903  tail -n 20 file1.txt | sort | uniq
+ 1904  head -n 5 *.txt
+ 1905  tail -n 20 file1.txt | history
+ 1906  tail -n 10 history
+ 1907  tail -n 10 | history
+ 1908  history -l 10
+ 1909  history -10
+ 1910  history 10
+ 1911  cat> file1.txt | sort | uniq
+ 1912  cat file1.txt | sort | uniq
+ 1913  file1.txt
+ 1914  show file1.txt
+ 1915  tail -n 5 file1.txt | head -n 5 file1.txt 
+ 1916  tail -n 5 file1.txt & head -n 5 file1.txt 
+ 1917  man ln
+ 1918  ===
+ 1919  ln
+ 1920  man ln
+ 1921  cat>list1.txt       -f, --force
+ 1922  man ln
+ 1923  cd vivek
+ 1924  mkdir LAb4
+ 1925  cat >file1_txt
+ 1926  ln file1_txt file_1link
+ 1927  ls -li
+ 1928  ln file_1.txt 
+ 1929  head file1_txt
+ 1930  head file1.txt
+ 1931  cat >file1.txt
+ 1932  ln file1.txt file_1link
+ 1933  ln file1.txt file_2link
+ 1934  ls -li
+ 1935  head file1.txt
+ 1936  cd lab4
+ 1937  cd LAB4
+ 1938  cd LAb4
+ 1939  tail file1.txt
+ 1940  head file1.txt
+ 1941  head file1.txt|sort
+ 1942  head file1.txt|uniq
+ 1943  history
+ 1944  history>cmd1.txt
+ 1945  cat>file.txt
+ 1946  ln file.txt file_link
+ 1947  head file_link
+ 1948  cat>log.txt
+ 1949  tail -n 20 log.txt
+ 1950  log.txt|sort
+ 1951  tail -n 20 log.txt|sort
+ 1952  tail -n 20 log.txt|uniqe
+ 1953  uniq log.txt
+ 1954  sort log.txt
+ 1955  find .-name "*.txt"
+ 1956  find -name "*.txt"
+ 1957  find -name "*.txt"|head -n 5 log.txt
+ 1958  history -n 10
+ 1959  history|tail -n 10
+ 1960  nl log.txt
+ 1961  nl log.txt|sort
+ 1962  nl log.txt|sort -u
+ 1963  nl log.txt|sort|uniq
+ 1964  head -n 5 file.txt
+ 1965  tail -n file.txt
+ 1966  tail -n 5 file.txt
+ 1967  ln -s log.txt
+ 1968  ls
+ 1969  ln -s log.txt linK2
+ 1970  ls -s
+ 1971  cat>vivek.log
+ 1972  find. -name"*.log"
+ 1973  find. -name"*.log"|sort -u
+ 1974  find -name"*.log"|sort -u
+ 1975  find. -name "*.log"| sort -u
+ 1976  find . -name "*.log"| sort -u
+ 1977  tail -n 5|head -n 5 file.txt
+ 1978  cd vivek
+ 1979  cd LAb4
+ 1980  log.txt|head -n 10|nl
+ 1981  log.txt|head -n 10
+ 1982  head -n 10 log.txt
+ 1983  head -n 10|nl log.txt
+ 1984  cd student
+ 1985  cd home
+ 1986  cd os689
+ 1987  mkdir lab4
+ 1988  cd lab4
+ 1989  man ln
+ 1990  cat>file1.txt
+ 1991  cat file1.txt
+ 1992  head file1.txt
+ 1993  head -n 20 file1.txt
+ 1994  tail file1.txt
+ 1995  tail -n 20 file1.txt
+ 1996  ln file1.txt file_link
+ 1997  ls -li
+ 1998  tail -n 20 file1.txt|nl
+ 1999  ls -s
+ 2000  find . -name "*.txt"
+ 2001  history
+ 2002  history>new.txt
