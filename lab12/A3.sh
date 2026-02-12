@@ -1,0 +1,12 @@
+#!/bin/bash
+#3. To validate the entered date. (E.g. Date format is: dd-mm-yyyy)
+
+read -p"Enter date (dd-mm-yyyy):" date
+
+if [[ $date =~ ^([0-2][0-9]|3[0-1])-(0[1-9]|1[0-2])-[0-9]{4}$ ]]
+then
+    echo "Valid date format"
+else
+    echo "Invalid date format"
+fi
+
