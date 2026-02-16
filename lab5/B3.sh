@@ -1,5 +1,5 @@
 #!/bin/bash
-#Lab 5 B3 To check whether given no is odd or even
+#Lab 5 B3 To check whether person is eligible to vote. (age>18)
 echo "Enter your age:"
 read age
 
