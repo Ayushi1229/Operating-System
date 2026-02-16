@@ -1,0 +1,10 @@
+# 1. To check whether a given year is leap year or not. 
+#!/bin/bash
+echo "Enter year:"
+read y
+
+if [ $((y%400)) -eq 0 ] || [ $((y%4)) -eq 0 -a $((y%100)) -ne 0 ]; then
+  echo "Leap Year"
+else
+  echo "Not a Leap Year"
+fi

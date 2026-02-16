@@ -1,0 +1,12 @@
+# 2. To find a largest number from 2 numbers. 
+#!/bin/bash
+echo "Enter first number:"
+read a
+echo "Enter second number:"
+read b
+
+if [ $a -gt $b ]; then
+  echo "$a is the largest number"
+else
+  echo "$b is the largest number"
+fi
